@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kyokusui",
+  "version": "${version}",
+  "name": "Kyokusui Mod",
+  "description": "A mod that adds the Kyokusui sword to Minecraft.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/kyokusui"
+  },
+  "license": "MIT",
+  "icon": "assets/kyokusui/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.kyokusui.kyokusuiMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1"
+  }
+}
